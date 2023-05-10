@@ -5,8 +5,8 @@
 -	Implement the rules of the Game of Life using conditional statements. For each cell in the grid, determine its state in the next generation based on the number of live neighbors it has. Update the grid accordingly.
 -	Repeat the above step for a specified number of generations.
 
-![ss1](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/ce91ed61-1efd-4c48-84fb-7f02c8ac805b)
-![ss2](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/12a2f416-a27d-4be4-9394-276148be29e2)
+![image](https://user-images.githubusercontent.com/123382738/235361951-47dd5dad-c99e-49f0-ad33-f14b716a117b.png)
+![image](https://user-images.githubusercontent.com/123382738/235361966-9acc78d4-824d-44d9-b0d0-d1eae1160928.png)
 
  
 2.	Create multiple POSIX threads to run the Game of Life algorithm concurrently:
@@ -18,27 +18,27 @@
 -	Use a mutex to prevent data races when updating the shared grid.
 -	Use a condition variable to signal to the main thread that a thread has finished updating its portion of the grid.
 
-![ss3](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/b89447b7-2a22-4f9f-a32b-3d528264d36e)
+![image](https://user-images.githubusercontent.com/123382738/235361984-f9e7c302-9480-4a62-bdeb-60388a3b676d.png)
 
-![ss4](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/a01788b5-ac12-4442-86da-52cc5fe50fa9)
+![image](https://user-images.githubusercontent.com/123382738/235361992-3a6cf943-7bb3-4afa-b921-32493cada7a5.png)
 
 
 4.	Use shell scripting to measure the speedup achieved by running the final application with various numbers of threads:
 -	Use the time command to measure the execution time of your program with different numbers of threads.
 -	Plot a graph to visualize the speedup achieved by running the program with various numbers of threads.
 
-![ss5](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/cf7794e0-f024-46f4-adf4-0ce11a21dd57)
+![image](https://user-images.githubusercontent.com/123382738/235362007-e400cd02-10c5-4920-9343-ff0b0b21899a.png)
 
-![ss8](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/804b249f-3f15-4e14-9381-ff8284348256)
+![image](https://user-images.githubusercontent.com/123382738/235362018-da227687-f28c-4ce4-b2e4-32cbb1e86607.png)
 
 
 5.	Submit a report detailing your implementation, including any design decisions you made and the results of your speedup measurements:
 -	Describe your implementation approach, including the design decisions you made regarding thread allocation, synchronization mechanisms, and data structures used.
 -	Present the results of your speedup measurements in a table or graph and analyze the performance gains achieved by running the program with multiple threads.
 
-![ss6](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/bbc646dc-138c-40ac-9ff5-b26b303c0a9e)
+![image](https://user-images.githubusercontent.com/123382738/235362044-a503ab9e-d68a-483a-8fcf-7e57fa3cc652.png)
 
-![ss7](https://github.com/NUCES-Khi/multithreadedconwaygame-AhmedMirani/assets/126978743/acf96344-3a07-4b88-87f9-a3b3545d48e1)
+![image](https://user-images.githubusercontent.com/123382738/235362051-f873d833-162f-4f3b-9a8c-adef48c20385.png)
 
 
 
